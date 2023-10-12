@@ -1,8 +1,8 @@
 
 
 import Header from "../../components/Header/Header";
-import PlayButton from "../PlayButton/PlayButton";
-import ShowNumber from "../ShowNumber/ShowNumber";
+import PlButton from "../PlayButton/PlayButton";
+import Number from "../Number/Number";
 import "./style.scss";
 
 const Layout = () => {
@@ -10,8 +10,8 @@ const Layout = () => {
         <div className="">
             <Header />
             <main className="flex items-center flex-col justify-center pt-10">
-                <ShowNumber />
-                <PlayButton />
+                <Number />
+                <PlButton />
             </main>
         </div>
     );

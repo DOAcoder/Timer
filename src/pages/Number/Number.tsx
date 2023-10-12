@@ -2,7 +2,7 @@
 
 import coffee from "../../assets/icons/coffee.svg";
 
-const ShowNumber = () => {
+const Number = () => {
     return (
         <section>
             <div>
@@ -18,4 +18,4 @@ const ShowNumber = () => {
     );
 };
 
-export default ShowNumber;
+export default Number;
